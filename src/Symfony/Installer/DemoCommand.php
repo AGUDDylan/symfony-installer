@@ -43,7 +43,7 @@ class DemoCommand extends DownloadCommand
     {
         parent::initialize($input, $output);
 
-        $this->version = 'lts';
+        $this->version = 'vim';
 
         if (!$input->getArgument('directory')) {
             $this->projectDir = getcwd();
